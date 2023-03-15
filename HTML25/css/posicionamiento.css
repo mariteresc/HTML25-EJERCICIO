@@ -1,0 +1,27 @@
+.box{
+    display: inline-block; /*Controla estructuras*/
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: white; /*Color texto*/
+}
+
+#two{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: palevioletred;
+}
+
+#three{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow: visible;
+    padding-left: 150px;
+}
